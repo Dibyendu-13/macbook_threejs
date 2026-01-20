@@ -1,7 +1,7 @@
 import React from 'react'
 import { navLiinks } from '../constants'
 
-function NavBar() {
+const  NavBar=()=> {
 return (
 <header>
   <nav>
