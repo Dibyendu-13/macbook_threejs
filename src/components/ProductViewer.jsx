@@ -1,5 +1,5 @@
 import React from 'react'
-import useMaCBookStore from '../store'
+import useMacbookStore from '../store'
 import clsx from 'clsx';
 import { Canvas } from '@react-three/fiber';
 
@@ -11,7 +11,7 @@ import { useMediaQuery } from 'react-responsive';
 
 function ProductViewer() {
 
-const {color, scale, setColor, setScale} = useMaCBookStore();
+const {color, scale, setColor, setScale} = useMacbookStore();
 const isMobile=useMediaQuery({query:'(max-width:1024px)'});
 
 

@@ -2,7 +2,7 @@ import {create} from 'zustand';
 
 const useMacbookStore = create((set) => ({
 
-    color:"#2e2c2e", // default color: Space Gray
+    color:"#adb5bd", // default color: Space Gray
     setColor:(color)=>set({color:color}),
 
     scale:0.08,
