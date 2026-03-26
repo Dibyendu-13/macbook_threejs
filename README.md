@@ -1,16 +1,87 @@
-# React + Vite
+# 🍎 MacVerse --- Interactive MacBook Product Experience
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An immersive, Apple-inspired 3D product showcase built with React,
+Three.js, and GSAP.\
+MacVerse allows users to explore MacBook models in a cinematic,
+interactive environment with smooth transitions and real-time
+customization.
 
-Currently, two official plugins are available:
+------------------------------------------------------------------------
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+-   🎥 Hero Section with Video Playback
+-   🧊 3D Product Viewer
+-   🎨 Dynamic Customization (Color + Size)
+-   🎬 Smooth Animations with GSAP
+-   🧠 Global State Management (Zustand)
+-   📱 Responsive Design
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+------------------------------------------------------------------------
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+-   React
+-   @react-three/fiber, drei
+-   GSAP
+-   Zustand
+
+------------------------------------------------------------------------
+
+## 📂 Project Structure
+```
+src/
+│
+├── components/
+│   ├── Hero.jsx
+│   ├── NavBar.jsx
+│   ├── ProductViewer.jsx
+│   ├── Box.jsx
+│   └── models/
+│       ├── Macbook-14.jsx
+│       └── Macbook-16.jsx
+│
+├── three/
+│   ├── StudioLights.jsx
+│   └── ModelSwitcher.jsx
+│
+├── store/
+│   └── index.js
+│
+├── constants/
+│   └── navLinks.js
+│
+└── App.jsx
+```
+
+------------------------------------------------------------------------
+
+## ⚙️ Installation
+
+git clone https://github.com/Dibyendu-13/macbook_threejs/
+cd macverse\
+npm install\
+npm run dev
+
+------------------------------------------------------------------------
+
+## 🎮 How It Works
+
+-   React Three Fiber handles 3D rendering
+-   GSAP handles animations
+-   Zustand manages global state
+-   Models switch with smooth transitions
+
+------------------------------------------------------------------------
+
+## ⚡ Future Improvements
+
+-   Scroll animations
+-   Performance optimization
+-   Full e-commerce flow
+
+------------------------------------------------------------------------
+
+## 🧑‍💻 Author
+
+Dibyendu Bar
