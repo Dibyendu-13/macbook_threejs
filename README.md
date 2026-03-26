@@ -58,10 +58,15 @@ src/
 
 ## ⚙️ Installation
 
+```
 git clone https://github.com/Dibyendu-13/macbook_threejs/
+
 cd macverse\
+
 npm install\
+
 npm run dev
+```
 
 ------------------------------------------------------------------------
 
